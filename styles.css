@@ -1,0 +1,110 @@
+body {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: darkkhaki;
+    
+}
+.main {
+    width: 1024px;
+    height: 928px;
+    background-color: #fff;
+}
+.black {
+    width: 1022px;
+    height: 10px;
+    background-color: #1d1d1b;
+    margin-left: 2px;
+}
+.gray {
+    width: 1022px;
+    height: 10px;
+    background-color: #dcdcda;
+    margin-left: 2px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    margin-left: 76px;
+    margin-top: 22px;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.header ul {
+    display: inline-flex;
+    margin-right: 60px;
+    justify-content: space-between;
+    width: 455px;
+    margin-top: 19px;
+    
+}
+
+.header ul > li > a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(63, 63, 63);
+    line-height: 1.2;
+    margin-top: 2px;
+    text-align: left;
+}
+
+    
+.header a:hover {
+    text-decoration: underline;
+}
+.faq {
+    margin-right: 22px;
+    margin-top: -10px;
+}
+.words {
+    height: 383px;
+    margin-top: 20px;
+    background-image: url(img/words.png);
+    background-repeat: no-repeat;
+    background-position: 87px 85px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.words ul {
+    margin-left: 49px;
+    margin-top: 142px;
+}
+.words p {
+    margin: 0;
+    padding: 0;
+}
+.words img {
+    float: right;
+    margin-top: 41px;
+    margin-right: 43px;
+}
+
+.words li:first-child {
+        font-size: 30px;
+        font-family: "Arial";
+        color: rgb(29, 30, 27);
+        font-variant: small-caps;
+    
+        text-align: right;
+
+}
+.words li:last-child {
+        font-size: 16px;
+        font-family: "Arial";
+        color: rgb(44, 120, 156);
+        text-align: right;
+
+      
+}
