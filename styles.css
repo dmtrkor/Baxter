@@ -2,12 +2,14 @@ body {
     width: 1024px;
     margin: 0 auto;
     background-color: darkkhaki;
+    position: relative;
     
 }
 .main {
     width: 1024px;
     height: 928px;
     background-color: #fff;
+    position: relative;
 }
 .black {
     width: 1022px;
@@ -46,7 +48,7 @@ ul {
     
 }
 
-.header ul > li > a {
+.header a {
     text-decoration: none;
     font-size: 16px;
     font-family: "Arial";
@@ -108,3 +110,88 @@ ul {
 
       
 }
+.focus {
+    position: absolute;
+    background-color: lightgreen;
+    margin: 0 auto;
+    top: 604px;
+    right: 41px;
+}
+.focus > ul {
+    display: flex;
+    width: 944px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+}
+.focus  li {
+    background-color: purple;
+    height: 154px;
+    width: 34%;
+    padding-left: 30px;
+}
+.focus  li:nth-child(1) {
+    background: #2c789c;
+    position: relative;
+    background-image: url(img/blueImg.png);
+    background-repeat: no-repeat;
+    background-position: 257px 6px ;
+    padding-left: 15px;
+    width: 36%;
+    
+}
+
+.focus li:nth-child(1):after {
+    content: ''; 
+    position: absolute;
+    right: -45px; top: 47px;
+    border: 22px solid transparent;
+    border-left: 23px solid #2c789c;
+    z-index: 5;
+}
+.focus  li:nth-child(2) {
+    background: #e5b00d;
+    position: relative;
+    background-image: url(img/yellowImg.png);
+    background-repeat: no-repeat;
+    background-position: right top ; 
+    
+}
+.focus li:nth-child(2):after {
+    content: ''; 
+    position: absolute;
+    right: -45px; top: 47px;
+    border: 22px solid transparent;
+    border-left: 23px solid #e5b00d;
+    z-index: 5;
+}
+.focus  li:nth-child(3) {
+    background: #97ba15;
+    position: relative;
+    background-image: url(img/greenImg.png);
+    background-repeat: no-repeat;
+    background-position: right top ;   
+}
+.focus a {
+   /* display: block;*/
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.focus p:nth-child(1) {
+    font-size: 19px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 0.264;
+    text-align: left;
+  }
+  
+.focus p:nth-child(2) {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.357;
+    text-align: left;
+  }
+  
