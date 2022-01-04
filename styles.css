@@ -154,7 +154,7 @@ ul {
     position: relative;
     background-image: url(img/yellowImg.png);
     background-repeat: no-repeat;
-    background-position: 267px 5px ; 
+    background-position: 260px 5px ; 
     
 }
 .focus li:nth-child(2):after {
@@ -208,8 +208,22 @@ ul {
   }
 .text {
     display: flex;
-    margin-left: 40px;
-    margin-top: 100px;
+    margin: 60px 17px 0 17px;
+    width: 990px;
+
+
+}
+.text div:nth-child(1){
+    padding-left: 38px;
+}
+.text div:nth-child(2){
+    width: 40%;
+    margin-right: 47px;
+}
+.text p{
+    margin: 0;
+    padding: 0;  
+    width: 99%;
 }
 .text p:nth-child(1) {    
     font-size: 24px;
@@ -217,35 +231,60 @@ ul {
     color: rgb(0, 0, 0);
     font-weight: bold;
     line-height: 0.792;     
+
 }
+
 .text p:nth-child(2) {    
   font-size: 16px;
   font-family: "Arial";
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.188;
+  margin-top: 9px;
 }
 .text p:nth-child(3) {
       font-size: 16px;
   font-family: "Arial";
   color: rgb(123, 125, 120);
   line-height: 1.188;
+  margin-top: 17px;
 }
-input {
-    margin-top: 14px;
-    margin-right: 30px;
 
-    font-size: 16px;
+input {
+    margin-top: 12px;
+    margin-right: 30px;
+    font-size: 15px;
     font-family: "Arial";
     color: rgb(153, 153, 153);
     line-height: 1.188;
+    padding: 11px 87px 4px 8px;
   
 }
+.text  a {
+    display: block;
+    box-sizing: border-box;
+    width: 103px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    margin-top: 20px;
+
+}
+.text a:hover {
+    background-color: #fff ;
+    color: black;
+}
+/*.text >  a:nth-child(2){
+    margin-top: 20px;
+} */
 ::placeholder {
 
   font-size: 16px;
   font-family: "Arial";
   color: rgb(153, 153, 153);
   line-height: 1.188;
+  padding: 12px;
+
 
 }
+
