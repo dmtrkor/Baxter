@@ -115,7 +115,9 @@ ul {
     background-color: lightgreen;
     margin: 0 auto;
     top: 604px;
-    right: 1px;
+    right: 17px;
+    width: 990px;
+    border-radius: 0 0 15px 15px;
 }
 .focus > ul {
     display: flex;
@@ -128,7 +130,7 @@ ul {
     background-color: purple;
     height: 154px;
     width: 33%;
-    padding-left: 30px;
+    padding-left: 29px;
 }
 .focus  li:nth-child(1) {
     background: #2c789c;
@@ -173,11 +175,10 @@ ul {
     background-position: 273px 6px ;   
 }
 .focus a {
-   /* display: block;*/
-    padding: 3px 10px;
+       padding: 3px 10px;
     background-color: #fff;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 11px;
     text-decoration: none;
     color: black;
     font-size: 16px;
@@ -214,11 +215,11 @@ ul {
 
 }
 .text div:nth-child(1){
-    padding-left: 38px;
+    padding-left: 22px;
 }
 .text div:nth-child(2){
     width: 40%;
-    margin-right: 47px;
+    margin-right: 63px;
 }
 .text p{
     margin: 0;
@@ -260,6 +261,9 @@ input {
     padding: 11px 87px 4px 8px;
   
 }
+input:nth-child(4){
+    margin-bottom: 10px;
+}
 .text  a {
     display: block;
     box-sizing: border-box;
@@ -268,15 +272,13 @@ input {
     background-color: black;
     color: #fff;
     margin-top: 20px;
+    margin-bottom: 25px;
 
 }
 .text a:hover {
     background-color: #fff ;
     color: black;
 }
-/*.text >  a:nth-child(2){
-    margin-top: 20px;
-} */
 ::placeholder {
 
   font-size: 16px;
@@ -284,7 +286,90 @@ input {
   color: rgb(153, 153, 153);
   line-height: 1.188;
   padding: 12px;
-
+}
+.container {
+    display: flex;
+    padding-top: 108px;
+    background-color: #1d1e1b;
+    color: #fff;
+}
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+ol li {
+    margin-bottom: 56px;
+    margin-left: 18px;
+}
+ol> li > img{
+    float: left;
+    margin-right: 13px;
 
 }
 
+.container > div{
+    width: 35%;
+    margin-left: 39px;
+}
+h2 {
+    display: inline-block;
+    margin-bottom: 11px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.188;
+    font-weight: normal;
+}
+ol>h2 {
+    margin-left: 16px;
+    margin-right: 15px;
+}
+ol span{
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.357;
+    letter-spacing: 0.2px;
+
+  }
+  .plan p, .time p{
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(172, 172, 172);
+  line-height: 1.562;
+  font-weight: bold;
+  letter-spacing: normal;
+
+}
+ol  p {   
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb(172, 172, 172);
+    line-height: 1.308;
+    margin: 0 ;
+}
+.plan a, .time a{
+    display: block;
+    width: 89px;
+    padding: 3px 10px;
+    background-color: #28617d;
+    border: 1px solid black;
+    border-radius: 11px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Arial";
+    margin-top: 23px;
+    text-align: center;
+}
+.plan a:hover, .time a:hover{
+    background-color: #fff;
+    color: #28617d;
+}
+ol a{
+    color: #28617d;
+}
