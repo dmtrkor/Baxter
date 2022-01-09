@@ -72,8 +72,7 @@ ul {
     background-image: url(img/words.png);
     background-repeat: no-repeat;
     background-position: 87px 85px;
-    background-color: darkblue;
-    display: flex;
+   display: flex;
     justify-content: space-between;
     align-items: center;
 
@@ -112,7 +111,7 @@ ul {
 }
 .focus {
     position: absolute;
-    background-color: lightgreen;
+    background-color: #fff;
     margin: 0 auto;
     top: 604px;
     right: 17px;
@@ -372,4 +371,92 @@ ol  p {
 }
 ol a{
     color: #28617d;
+}
+.wide   {
+    display: flex;
+    background: linear-gradient(#5a5b59, #2e302d);
+}
+.wide div{
+    width: 32%;
+    margin: 0 0 0 30px ;
+}
+.wide li{
+        margin-top: 10px;
+        font-size: 11px;
+        font-family: "Arial";
+        font-weight: bold;
+        letter-spacing: -0.6px;
+        color: rgb(148, 153, 143);
+        line-height: 1.308;
+        margin-bottom: 17px;
+     
+}
+.wide li::before{
+    content: '+';
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.wide p{
+    font-size: 11px;
+    font-family: "Arial";
+    font-weight: bold;
+    color: rgb(172, 172, 172);
+    line-height: 1.308;
+    margin: 0 30px 0 5px;
+}
+.wide span{
+    margin: 25px 10px 10px 10px;
+        font-size: 19px;
+        font-family: "Arial";
+        color: rgb(255, 255, 255);
+         line-height: 0.895;
+         display: block;
+      
+}
+.wide ul:nth-child(3){
+    margin: 39px 0 0 90px;
+}
+.wide a {
+    display: block;
+    color: #28617d;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial;
+    line-height: 1.188;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: #131412;
+}
+.footer p{
+        font-size: 13px;
+        font-family: "Arial";
+        color: rgb(148, 153, 143);
+        line-height: 1.462;
+        margin-left: 50px;
+        margin-right: 200px;
+}
+.footer ul{
+    display: inline-flex;
+    margin-left: 118px;
+    justify-content: space-between;
+    width: 455px;
+    gap: 26px;
+
+}
+.footer a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(63, 63, 63);
+    line-height: 1.2;
+}
+.footer a:hover{
+    color: #fff;
 }
